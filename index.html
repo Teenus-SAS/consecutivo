@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="datos.js"></script>
+  </head>
+  <body>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <form name= formulario method="post">
+
+  
+      <input type="radio" id="liquido" name="gender" value="LQ">
+      <label for="male">Liquido</label><br>
+      <input type="radio" id="semisolido" name="gender" value="SM">
+      <label for="fame">Semisolido</label><br>
+      <input type="radio" id="solido" name="gender" value="SL">
+      <label for="fame">Solido</label><br>
+    <button type="button" name="button" id="fecha">añadir</button>
+        </form>
+    <script>
+    $(function(){
+      $('#fecha').click(function(){
+          consecutivo();
+      });
+    });
+</script>
+  </body>
+</html>
